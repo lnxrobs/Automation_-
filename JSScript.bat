@@ -4,7 +4,7 @@ SET SendKeys=CScript //nologo //E:JScript "%~F0"
 //set your preference link in ""
 
 
-START chrome -new-window-private --incognito "facebook.com.br"
+START opera -new-window-private --incognito "facebook.com.br"
 TIMEOUT /t 4
 %SendKeys% "Hello"
 %SendKeys% "TAB"
